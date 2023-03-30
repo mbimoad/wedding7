@@ -1,0 +1,259 @@
+:root {
+	--color1: #5c89a4;
+	--color2: #72b4dd;
+	--color3: #0a5d90;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family:'n4';
+	src: url('../plugin/font/normal/n4.ttf') format('truetype');
+}
+
+@font-face {
+	font-family:'s6';
+	src: url('../plugin/font/sambung/s6.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s7';
+	src: url('../plugin/font/sambung/s7.ttf') format('truetype');
+}
+ .font_s1 {
+	font-family: s7;
+	font-weight: 800;
+	color:var(--color1);
+	text-shadow: 3px 3px 1px #ddd;
+} .font_s6 {
+    font-family: s6;
+} body {
+	font-family: n4;
+	overflow-x: hidden;
+} .dashboard-image {
+	width: 300px;
+} .dashboard .container-fluid {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} .bgimage {
+	background-image: url('5.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+} .relative {
+	position: relative;
+} .absolute {
+	position: absolute;
+} .invite .flower img, .dashboard .flower img {
+	width: 400px;
+} .invite .flower1, .dashboard .flower1 {
+	right: -150px;
+	top: -100px;
+} .invite .flower2, .dashboard .flower2 {
+	left: -150px;
+	bottom: -100px;
+} .times {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+} .waktu {
+    font-size: 2rem;
+} .time {
+	background:var(--color1);
+	width: 70px;
+	line-height: 20px;
+	padding: 10px 0;
+	border-radius: 30px;
+	color:#ddd;	
+} .btn-primary {
+	background:var(--color1);
+} 
+.love-story,
+.paslon {
+	background-color: var(--color1);
+} .images {
+	width: 180px;
+	height: 180px;
+	border-radius: 180px;	
+	background-image: url('12.webp');
+	background-color:var(--color2);
+	background-repeat: no-repeat;
+	background-size: 600px;
+} .male-image {
+	background-position: -120px -20px;
+} .frame {
+	width: 230px;
+	top: -19px;
+	left: -25px;
+	filter: hue-rotate(276deg);
+} .paslon-images {
+	width: 180px;
+	margin: auto;
+} .female-image {
+	background-position: -260px -50px;
+} .fa-instagram {
+	background-color: var(--color3);
+	padding: 5px;
+	border-radius: 50px;
+	border: 2px solid white;
+} .love-story .card::before {
+	content: '❤️';
+	text-align: center;
+	display: block;
+	width: 22px;
+	height: 22px;
+	background-color: white;
+	position: absolute;
+	left: -33px;
+	border-radius: 50px;
+} .quran .flower img {
+	width: 400px;
+	z-index: -1;
+	top: 150px;
+	left: -100px;
+	opacity: .5;
+} 
+.amplop .card,
+.acara .card {
+	background-image: url('5.webp');
+	background-size: cover;
+	box-shadow: 0px 10px 5px #999;
+	border: 10px double var(--color1);
+} .bank {
+    width: 100px;
+} .quran, .acara, .amplop, .komentar, .health-protocol {
+	padding-bottom: 5rem;
+} .protocol {
+	background-color:var(--color1);
+	color:white; 
+	padding:10px;
+	border-radius:50px;
+	border: 5px solid var(--color2);
+} .input {
+	border: 10px double var(--color1);
+} form {
+	background-color: #eee;
+	padding:50px;
+	border-radius: 50px;
+} footer {
+	background-color: var(--color2);
+	height: 210px;
+} .nav {
+    display: none;
+    box-shadow: 0 0 5px #ddd;
+    position: fixed;
+    bottom: 20px;
+    border-radius: 150px;
+    left: 0;
+    right: 0;
+    z-index: 999999999999999999999999999999999;
+    background-color: var(--color3);
+    width: 95%;
+    padding: 10px 0;
+    margin: auto;
+} .nav a {
+    color:white;
+} .hilang {
+	opacity: 0;
+	transform: translate(0, 30px);
+	transition: all 500ms ease 0s;
+} .muncul {
+	opacity: 1;
+	transform: translate(0, 0);
+} .myicon {
+    display: none;
+    color:white;
+    text-align: center;
+    width: 35px;
+    height: 34px;
+    padding: 5px;
+    border-radius: 50%;
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    bottom: 50%;
+    z-index: 9999999999999999999999999999999999;
+    background: var(--color3);
+} .invite {
+    transition: all 500ms ease 0s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999999999999999999999999999999999999999999;
+} .invite button {
+    border: unset;
+    background:var(--color2);
+    color:white;
+    transition: all 200ms ease 0s;
+} .invite button:hover {
+    background:var(--color3);
+} .buka {
+    transform: translate(0, -100%);
+    opacity: 0;
+} .people {
+	background-image: url('12.webp');
+	background-size: 400px;
+	background-position: -80px 0;
+	margin: auto;
+    background-color:var(--color1);
+    border-radius: 300px;
+	width: 200px;
+	height:200px;
+    position: relative;   
+} .absensi {
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0 5px;
+    color:black;
+	background-color:var(--color1);
+	color:white;
+} .undangan {
+    font-size: 1.5rem;
+	color:var(--color3);
+	text-shadow:3px 3px 4px #999;
+}
+ 
+
+/* .health-protocol::before {
+	content: '';
+	display: block;
+	background-image: linear-gradient(to bottom, white, #eee);
+	height: 40px;	
+} */
+
+@media screen and (max-width: 683px) {
+	.bgimage {
+		background-image: url('5.webp');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: -250px 0;
+	} .invite .flower img, .dashboard .flower img {
+		width: 200px;
+	} .invite .flower1, .dashboard .flower1 {
+		right: -75px;
+		top: -75px;
+	} .invite .flower2, .dashboard .flower2 {
+		left: -75px;
+		bottom: -75px;
+		z-index: 1;
+	}  .quran .flower img {
+		width: 200px;
+		z-index: -1;
+		top: 90px;
+		left: -50px;
+		opacity: .5;
+	} .font_s1 {
+		font-size: 2.5rem;
+	}
+}

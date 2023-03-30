@@ -1,0 +1,71 @@
+@font-face {
+	font-family:'n1';
+	src: url('../plugin/font/normal/n1.ttf') format('truetype');
+}
+@font-face {
+	font-family:'n2';
+	src: url('../plugin/font/normal/n2.ttf') format('truetype');
+}
+@font-face {
+	font-family:'n3';
+	src: url('../plugin/font/normal/n3.ttf') format('truetype');
+}
+@font-face {
+	font-family:'n4';
+	src: url('../plugin/font/normal/n4.ttf') format('truetype');
+}
+@font-face {
+	font-family:'n5';
+	src: url('../plugin/font/normal/n5.ttf') format('truetype');
+}
+@font-face {
+	font-family:'n6';
+	src: url('../plugin/font/normal/n6.ttf') format('truetype');
+}
+@font-face {
+	font-family:'n7';
+	src: url('../plugin/font/normal/n7.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family:'s1';
+	src: url('sambung/s1.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s2';
+	src: url('sambung/s2.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s3';
+	src: url('sambung/s3.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s4';
+	src: url('sambung/s4.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s5';
+	src: url('sambung/s5.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s6';
+	src: url('sambung/s6.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s7';
+	src: url('sambung/s7.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s8';
+	src: url('sambung/s8.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s9';
+	src: url('sambung/s9.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s10';
+	src: url('sambung/s10.ttf') format('truetype');
+}
+
